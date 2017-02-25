@@ -96,10 +96,10 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255,255,255,0.8);
+    color: #000;
   }
   .navbar-custom .nav li a {
-    color: #fff;
+    color: #000;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -175,7 +175,7 @@ hr.small {
 .intro-header .site-heading.archives,
 .intro-header .post-heading.archives,
 .intro-header .page-heading.archives {
-  color: #000;
+  color: #0085a1;
   margin-top: 60px;
 }
 .intro-header .site-heading,
