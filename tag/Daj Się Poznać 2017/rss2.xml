@@ -8,8 +8,22 @@
     <atom:link href="/tag/Daj%20Si%C4%99%20Pozna%C4%87%202017/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 21 Mar 2017 18:07:54 GMT</pubDate>
+    <pubDate>Wed, 22 Mar 2017 18:41:32 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Co udało się zrobić</title>
+      <link>https://marcelinastuchlik.github.io/22/03/2017/Co-udalo-sie-zrobic/</link>
+      <guid>https://marcelinastuchlik.github.io/22/03/2017/Co-udalo-sie-zrobic/</guid>
+      <pubDate>Wed, 22 Mar 2017 18:21:12 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Ostatnio sporo czasu poświęciłam na warstwę wizualną mojej strony internetowej.&lt;br&gt;Dodałam kilka elementów z Bootstrapa (Dropdown, Carous
+      
+      </description>
+      
+      <comments>https://marcelinastuchlik.github.io/22/03/2017/Co-udalo-sie-zrobic/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Podstawowe komendy Git</title>
