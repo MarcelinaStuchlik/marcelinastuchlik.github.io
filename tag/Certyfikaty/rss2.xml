@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Keep Calm And Try Coding</title>
+    <link>https://marcelinastuchlik.github.io/</link>
+    <atom:link href="/tag/Certyfikaty/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Sun, 21 May 2017 08:24:08 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Mission Accomplished</title>
+      <link>https://marcelinastuchlik.github.io/09/04/2017/Mission-Accomplished/</link>
+      <guid>https://marcelinastuchlik.github.io/09/04/2017/Mission-Accomplished/</guid>
+      <pubDate>Sun, 09 Apr 2017 16:20:25 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;W poprzednim wpisie na blogu, zobowiązałam się do skończenia kursu C# na stronie SoloLean w najbliższy weekend i słowa dotrzymałam. &lt;/p&gt;
+
+      
+      </description>
+      
+      <comments>https://marcelinastuchlik.github.io/09/04/2017/Mission-Accomplished/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
