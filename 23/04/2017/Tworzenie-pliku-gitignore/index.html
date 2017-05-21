@@ -10,13 +10,16 @@
 
     <!--Description-->
     
+        <meta name="description" content="W niniejszym wpisie poruszę temat tworzenia pliku .gitignore krok po kroku w pustym repozytorium.Na codzień pracuję na systemie operacyjnym Windows. 
+">
+    
 
     <!--Author-->
     
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Keep Calm And Try Coding"/>
+        <meta property="og:title" content="Tworzenie pliku .gitignore"/>
     
 
     <!--Open Graph Description-->
@@ -27,7 +30,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
     
 
     <!--Page Cover-->
@@ -38,7 +41,7 @@
 
     <!-- Title -->
     
-    <title>Archiv: 2017/3 - Keep Calm And Try Coding</title>
+    <title>Tworzenie pliku .gitignore - Keep Calm And Try Coding</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -127,50 +130,107 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('https://raw.githubusercontent.com/MarcelinaStuchlik/marcelinastuchlik.github.io/master/images/cover.JPG')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2017/3</h1>
+                <div class="post-heading">
+                    <h1>Tworzenie pliku .gitignore</h1>
+                    
+                    <h2 class="post-subheading">
+                        W niniejszym wpisie poruszę temat tworzenia pliku .gitignore krok po kroku w pustym repozytorium.
+                    </h2>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        23-04-2017
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/System-kontroli-wersji/">#System kontroli wersji</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/26/03/2017/Hello-World/">
-        <h1 class="post-title archive">
-            Hello World
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        26-03-2017
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>W niniejszym wpisie poruszę temat tworzenia pliku .gitignore krok po kroku w pustym repozytorium.<br>Na codzień pracuję na systemie operacyjnym Windows. </p>
+<p>Na samym początku otwieramy konsolę (ja używam cmder <a href="http://cmder.net/" target="_blank" rel="external">http://cmder.net/</a>) - wyszukujemy w niej miejsca gdzie znajduje się nasz projekt.</p>
+<p><img src="/images/tworzenieplikugitignore/konsolacmd.png" alt=""></p>
+<p>Kolejne kroki wyglądają następująco:</p>
+<ul>
+<li>git init</li>
+<li>touch .gitignore</li>
+<li>otwieramy przeglądarkę internetową i wpisujemy <a href="https://www.gitignore.io/" target="_blank" rel="external">https://www.gitignore.io/</a></li>
 </ul>
+<p><img src="/images/tworzenieplikugitignore/gitignoreio.png" alt=""></p>
+<p>W pasku wyszukiwania zaznaczamy VisualStudio i naciskamy przycisk Create.<br>Na powstałym pliku wykonujemy Ctrl + A oraz Ctrl + C<br>Plik powinien wyglądać w następujący sposób:</p>
+<p><img src="/images/tworzenieplikugitignore/plik.png" alt=""></p>
+<ul>
+<li><p>code .gitignore (w moim przypadku otwiera się Visual Studio Code)<br>Można użyć do tego celu innego edytora tekstu np. Sublime Text, Notatnika, itd.<br>Do pliku .gitignore należy wkleić oraz zapisać powstały wcześniej plik.<br>Ctrl + V oraz Ctrl + S<br>W tym momencie można już zamknąć Visual Studio Code.</p>
+</li>
+<li><p>git status </p>
+</li>
+<li>git add . lub git add -A lub git add –all (ja osobiście używam git add -A)</li>
+<li>git status</li>
+<li>git commit -m “Initial commit”</li>
+<li>git remote add origin <a href="https://github.com/NazwaUżytkownika/NazwaRepozutorum.git" target="_blank" rel="external">https://github.com/NazwaUżytkownika/NazwaRepozutorum.git</a></li>
+<li>git push</li>
+<li>podaj nazwę użytkownika oraz hasło</li>
+</ul>
+<p>Całość powinna wyglądać następująco:</p>
+<p><img src="/images/tworzenieplikugitignore/calosc.png" alt=""></p>
+<p>Pozdrawiam, Marcelina </p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>Kommentare:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
-
+</article>
 
     <!-- Footer -->
     <hr />
@@ -258,7 +318,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
