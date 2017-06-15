@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Keep Calm And Try Coding</title>
+    <link>https://marcelinastuchlik.github.io/</link>
+    <atom:link href="/tag/Visual%20Studio/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 15 Jun 2017 13:09:16 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Przydatne skróty klawiszowe w Visual Studio</title>
+      <link>https://marcelinastuchlik.github.io/04/06/2017/Przydatne-skroty-klawiszowe-w-Visual-Studio/</link>
+      <guid>https://marcelinastuchlik.github.io/04/06/2017/Przydatne-skroty-klawiszowe-w-Visual-Studio/</guid>
+      <pubDate>Sat, 03 Jun 2017 22:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Visual Studio posiada dosyć sporo skrótów klawiszowych i są to najczęściej kombinacje dwóch lub trzech przycisków.&lt;br&gt;W niniejszym wpisie
+      
+      </description>
+      
+      <comments>https://marcelinastuchlik.github.io/04/06/2017/Przydatne-skroty-klawiszowe-w-Visual-Studio/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
